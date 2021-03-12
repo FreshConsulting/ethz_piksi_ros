@@ -13,7 +13,7 @@ sudo pip install llvmlite --upgrade
 echo "SBP Library Installed"
 
 echo "Installing ROS node requirements."
-sudo pip install numpy-quaternion
+sudo pip install numpy-quaternion==2021.3.6.15.24.2
 sudo pip install scipy
 sudo pip install pyproj
 
